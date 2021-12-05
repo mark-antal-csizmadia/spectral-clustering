@@ -3,7 +3,7 @@ from pathlib import Path
 import argparse
 from utils import read_data, make_graph
 from spectral_clustering import SpectralClusterer
-from plot import plot_a, plot_f, plot_v, plot_graph
+from plot import plot_a, plot_f, plot_v, plot_v_zoom,    plot_graph
 
 
 # arg parse
@@ -55,6 +55,9 @@ if __name__ == "__main__":
     plot_f(f=f, dataset_name=args.dataset_name, path_save=Path("assets") / Path(args.dataset_name + "_f.png"))
     # plot the eigenvalues
     plot_v(v=v, dataset_name=args.dataset_name, path_save=Path("assets") / Path(args.dataset_name + "_v.png"))
+    # plot the eigenvalues (zoomed in)
+    plot_v_zoom(v=v, k=k, dataset_name=args.dataset_name,
+                path_save=Path("assets") / Path(args.dataset_name + "_vz.png"))
 
     # done
     print(f"script finished execution in {time.time() - start_time:.4f} seconds")

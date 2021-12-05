@@ -50,3 +50,18 @@ def plot_v(v, dataset_name, path_save=None):
 
     if path_save is not None:
         plt.savefig(path_save)
+
+
+def plot_v_zoom(v, k, dataset_name, path_save=None):
+    """ Plots the eigenvalues sorted by magnitude in ascending order (zoomed in)"""
+    plt.figure(figsize=(6, 4))
+    extend_by = 5
+    plt.plot(np.arange(v[:k+extend_by].size) + 1, v[:k+extend_by], '-o')
+    plt.grid("on")
+    plt.xlabel("Eigenvalues by index (in ascending order, zoomed in)")
+    plt.ylabel("Eigenvalue magnitudes, zoomed in")
+    plt.title(f"Eigenvalues of {dataset_name}, zoomed in")
+    plt.tight_layout()
+
+    if path_save is not None:
+        plt.savefig(path_save)
