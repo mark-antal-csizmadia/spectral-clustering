@@ -29,7 +29,7 @@ python main.py --dataset_name example1 --seed 123
 or on ```example2.dat```:
 
 ```commandline
-python main.py --dataset_name example1 --seed 123
+python main.py --dataset_name example2 --seed 123
 ```
 
 ## Results
