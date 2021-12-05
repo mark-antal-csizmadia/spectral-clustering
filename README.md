@@ -39,7 +39,7 @@ python main.py --dataset_name example2 --seed 123
 Affinity (adjacency) matrix of graph g:
 ![alt text](assets/example1_a.png)
 
-Fiedler vector (2nc eigenvector) of adjacency matrix:
+Fiedler vector (2nd eigenvector) of adjacency matrix:
 ![alt text](assets/example1_f.png)
 
 Eigenvalues in ascending order of adjacency matrix:
@@ -48,7 +48,7 @@ Eigenvalues in ascending order of adjacency matrix:
 Eigenvalues in ascending order of adjacency matrix (zoomed in):
 ![alt text](assets/example1_vz.png)
 
-Clusters in graph g found via spectral clustering:
+The 4 clusters in graph g found via spectral clustering:
 ![alt text](assets/example1_labels.png)
 
 
@@ -57,7 +57,7 @@ Clusters in graph g found via spectral clustering:
 Affinity (adjacency) matrix of graph g:
 ![alt text](assets/example2_a.png)
 
-Fiedler vector (2nc eigenvector) of adjacency matrix:
+Fiedler vector (2nd eigenvector) of adjacency matrix:
 ![alt text](assets/example2_f.png)
 
 Eigenvalues in ascending order of adjacency matrix:
@@ -66,7 +66,7 @@ Eigenvalues in ascending order of adjacency matrix:
 Eigenvalues in ascending order of adjacency matrix (zoomed in):
 ![alt text](assets/example2_vz.png)
 
-Clusters in graph g found via spectral clustering:
+The 2 clusters in graph g found via spectral clustering:
 ![alt text](assets/example2_labels.png)
 
 
