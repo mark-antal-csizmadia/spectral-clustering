@@ -45,6 +45,9 @@ Fiedler vector (2nc eigenvector) of adjacency matrix:
 Eigenvalues in ascending order of adjacency matrix:
 ![alt text](assets/example1_v.png)
 
+Eigenvalues in ascending order of adjacency matrix (zoomed in):
+![alt text](assets/example1_vz.png)
+
 Clusters in graph g found via spectral clustering:
 ![alt text](assets/example1_labels.png)
 
@@ -52,15 +55,18 @@ Clusters in graph g found via spectral clustering:
 ### Example1
 
 Affinity (adjacency) matrix of graph g:
-![alt text](assets/example1_a.png)
+![alt text](assets/example2_a.png)
 
 Fiedler vector (2nc eigenvector) of adjacency matrix:
-![alt text](assets/example1_f.png)
+![alt text](assets/example2_f.png)
 
 Eigenvalues in ascending order of adjacency matrix:
-![alt text](assets/example1_v.png)
+![alt text](assets/example2_v.png)
 
 Clusters in graph g found via spectral clustering:
-![alt text](assets/example1_labels.png)
+![alt text](assets/example2_labels.png)
+
+Eigenvalues in ascending order of adjacency matrix (zoomed in):
+![alt text](assets/example2_vz.png)
 
 
