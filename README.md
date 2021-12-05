@@ -52,7 +52,7 @@ Clusters in graph g found via spectral clustering:
 ![alt text](assets/example1_labels.png)
 
 
-### Example1
+### Example2 (2 clusters)
 
 Affinity (adjacency) matrix of graph g:
 ![alt text](assets/example2_a.png)
